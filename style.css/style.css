@@ -1,0 +1,79 @@
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,rgb(50, 54, 129), rgb(67, 68, 87));
+}
+.boxing{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(12, 12, 48);
+    padding: 14px;
+    border-radius: 10px;
+    width: 20%;
+    color: white
+}
+.luner{ 
+    border: 1px solid rgb(222, 238, 78);
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 7px;
+    color: white
+}
+.linea{
+    position: relative;
+}
+.zyzz{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+
+}
+
+
+.linea label {
+    order: -1; /* Coloca o label acima do input */
+}
+
+.linea input {
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 5px;
+    margin-top: 5px; }
+
+    .linea{
+        position: relative;
+    }
+    .zyzz{
+        outline: none;
+        border-radius: 4px;
+
+    }
+    .linux{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        pointer-events: none;
+        transition: .5s;
+        top: -20px
+    }
+    #sub{
+        background-image: linear-gradient(to right, rgb(135, 137, 240), rgb(57, 5, 153));
+        width: 100%;
+        border: none;
+        padding: 15px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+    
+    }
+    #sub:hover{
+        background-image: linear-gradient(to right, rgb(33, 33, 85), rgb(120, 73, 202));
+    } 
+    
